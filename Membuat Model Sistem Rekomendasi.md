@@ -47,15 +47,19 @@ Untuk *overview* dari dataset tersebut setelah dijadikan *dataframe* adalah seba
 movie_df : yang berisi dataset movies.csv yang ditunjukkan pada Tabel 1.
 
 Tabel 1. *Overview* movie_df
-| movieId | title	                                   | genres                                      |
-|---------|------------------------------------------|---------------------------------------------|
-| 1       | Toy Story (1995)                         | Adventure-Animation-Children-Comedy-Fantasy |
-| 2       | Jumanji (1995)                           | Adventure-Children-Fantasy                  |
-| 3       | Grumpier Old Men (1995)	                 | Comedy-Romance                              |
-| ......  | ........................................ | ........................................... |
-| 193585  | Flint (2017)	                           | Drama                                       |
-| 193587  | Bungo Stray Dogs: Dead Apple (2018)      | Action-Animation                            |
-| 193609  | Andrew Dice Clay: Dice Rules (1991)	     | Comedy                                      |
+| movieId | title	                                     | genres                                      |
+|---------|--------------------------------------------|---------------------------------------------|
+| 1       | Toy Story (1995)                           | Adventure|Animation|Children|Comedy|Fantasy |
+| 2       | Jumanji (1995)                             | Adventure|Children|Fantasy                  |
+| 3       | Grumpier Old Men (1995)	                   | Comedy|Romance                              |
+| 4       | Waiting to Exhale (1995)	                 | Comedy|Drama|Romance                        |
+| 5       | Father of the Bride Part II (1995)	       | Comedy                                      |
+| ......  | ...........................................|............................................ |
+| 193581  | Black Butler: Book of the Atlantic (2017)  | Action|Animation|Comedy|Fantasy             |
+| 193583	| No Game No Life: Zero (2017)               | Animation|Comedy|Fantasy                    |
+| 193585  | Flint (2017)		                           | Drama                                       |
+| 193587  | Bungo Stray Dogs: Dead Apple (2018)		     | Action|Animation                            |
+| 193609  | Andrew Dice Clay: Dice Rules (1991)		     | Comedy                                      |
 
 #
 rating_df : yang berisi dataset ratings.csv yang sudah didelete kolom timestampnya yang ditunjukkan pada Tabel 2.
